@@ -48,18 +48,4 @@ def kalkulasi(saham, biaya):
         sharpeRatio,
         harga_terbaru,
     )
-
-def kalkulasi2 (biaya):
-    saham = ['BBRM','BESS','BSML','BULL', 'CANI', 'HAIS','HITS','IPCC', 'MITI', 'NELY', "PSSI", "RIGS", "SHIP", "SMDR", "SOCI", "TCPI", "TMAS", "TPMA", "WINS" ]
-    hitungrank = kalkulasi(saham, biaya)
-    print(hitungrank)
-
-    # butuh sortir 
-
-    # ambil top 5
-
-    # hitung dengan def kalkulasi lagi
-
-    # return hasil hitungannya
-    
-kalkulasi2 (100000000)
+kalkulasi (100000000)
